@@ -1,0 +1,314 @@
+/*start all body properties*/
+body {
+        font-family:'Palatino Linotype', serif;
+        font-size: 17px;
+
+        background-image: url("../img/backgr.jpg");
+      }
+/*start all body properties*/
+
+
+/*start трикульор white and green color properties*/
+.flag {
+	height: 50px;  
+    text-align: center;
+}
+
+.flag p{
+
+	padding-top: 8px;
+	font-size: 24px;         
+}
+/*end трикульор white and green color properties*/
+
+img{
+	max-width: 100%;
+}
+
+
+
+
+
+
+
+h3, .h3 {
+    font-size: 21px;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 6px;
+}
+
+
+.videoWrapper iframe {
+    padding-bottom: 25px;
+    }
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 0px 0px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.lightbox-image{
+	margin-bottom: 30px;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+/*start header colour changer*/
+
+
+.youtube {
+	width: 100%;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.MainText {
+	padding-top: 18px;
+    padding-bottom: 9px;
+    color: #053477;
+    /*font-size: 16px;*/
+    font-size: 18px;
+}
+
+.MainTextBlueBerry {
+	color:#411428;
+}
+.MainTextBlue {
+	color:#0f3671;
+}
+.MainTextYellow {
+	color:#d27820;
+}
+.MainTextBrown {
+	color:#9e6112;
+}
+.MainTextGreen {
+	color:#098027;
+}
+/*.MainTextBlueLake {
+	color:#0c8f6e;#0f9898
+}*/
+.MainTextBlueLake {
+	color:#0f9898;
+}
+.MainTextGray{
+	color: #343435;
+}
+
+/*#710f3c*/
+
+
+
+
+.textUp{
+	padding-top: 0px;
+}
+
+
+.separtor {
+	height: 40px;
+	background-color: #c96363;  
+	text-align: center; 
+	color: #cceaea;
+	font-size: 24px;
+    padding-top: 3px;
+    margin-bottom: 30px;
+}
+.sepback{
+	border-radius: 10px;
+}
+
+.carousel-inner {
+    margin-bottom: 35px;
+}
+
+.caption {
+	background-color: #c96363;
+}
+.caption h3 {
+	text-align: center;
+	background-color: #c96363;
+	color: #00ffff;
+}
+
+.SiteBar {
+	font-size: 14px;
+	color: #661d6f;
+	background-color:#b7b7b7;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: grey;
+	margin-bottom: 20px;
+	margin-top: 23px;
+}
+
+.reklama{
+	text-align: center; 
+}
+
+ul, ol{
+	margin-left: -10px;
+
+}
+
+
+.SiteBar {
+	
+}
+
+/*start footer properties*/
+.footerr {
+	height: 80px;
+	/*background-color: #af5050;*/
+	background-color: #6f4e4e;
+	
+	color: #f0c3d7;
+	text-align: center; 
+	font-size: 18px;
+	padding-top: 8px;
+}
+/*end footer properties*/
+
+
+/*start navigation color to red mode*/
+.navbar-inverse {
+    background-color: red;
+    border-color: red;
+}
+.navbar-inverse .navbar-toggle{
+	border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	border-color:#c51717;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: #5c0101;
+}
+/*.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+	background:#c51717 ; 
+}*/
+
+
+
+.navbar-inverse .navbar-nav > .open > a{
+	background:#c51717 ; 
+}
+.navbar-inverse .navbar-nav > .open > a:hover{
+	background:#c51717 ; 
+}
+.navbar-inverse .navbar-nav > .open > a:focus{
+	background:#c51717 ; 
+}
+
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	background: #c51717;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+	color: #ffffff;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+	background-color: #c51717;
+}
+/*end navigation color to red mode*/
+
+
+
+
+/*форматиране на линковете ФО*/
+
+h3 a{
+	color:#00ffff;
+}
+a:hover, a:focus  {
+	text-decoration: none;
+	color:#ffffff;
+}
+.link{
+	color:#a4dbdb;
+}
+.linkbackgr{
+	color: #f0c3d7;
+}
+
+/*ФО контейнери*/
+.thumbnail{
+	background-color: #cf6866;
+	border-radius: 10px;
+}
+
+/*контакти*/
+.well{
+	margin-bottom: 0px;
+}
+
+.btn{
+	margin-bottom: -12px;
+}
+
+ div.goUp{
+ 	cursor: pointer;
+ 	display: none;
+	height: 40px;
+	width: 60px;
+	position: fixed;
+	right: 10px;
+	bottom: 40px;
+	font-weight: bold; 
+	text-align: center;
+	font-size: 15px;
+	color: pink;
+	background-color: red;
+	border-radius: 40px;
+	vertical-align: middle;
+	opacity: 0.4;
+	z-index: 100;
+ }
+
+ .goUp p{
+ 	padding-top: 8px;
+ }
+
+ div.goUp:hover{
+ 	opacity: 1;
+
+ }
+
+.fixOnTop{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 100;
+}
+
+
+legend a:hover, a:focus {
+    color: #ae374c;	
+}
+
