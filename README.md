@@ -10,5 +10,4 @@ How to how to improve:
 
 3.To add functionalities with JavaScript.
 
-Download files to view the site. 
-Or view at http://softaca.fiona.icnhost.net/Aleksandar%20Stefanov/ (if still available).
+Download files to view the site or view at http://softaca.fiona.icnhost.net/Aleksandar%20Stefanov/ (if still available).
